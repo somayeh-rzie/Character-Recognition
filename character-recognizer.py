@@ -32,7 +32,7 @@ def sigmoid(x):
 
 # Load Dataset
 def read_from_file(address):
-    path = os.path.join('data hw1',address)
+    path = os.path.join('data',address)
     result_set = []
 
     counter = 0
@@ -62,8 +62,8 @@ def read_from_file(address):
             result_set.append((txt, label))
     return result_set
 
-train_set = read_from_file('TrainSetHW1')
-test_set = read_from_file('TestSetHW1')
+train_set = read_from_file('SimpleOCR-TrainSet')
+test_set = read_from_file('SimpleOCR-TestSet')
 
 
 def plot_result(x, y, label_x, label_y):
