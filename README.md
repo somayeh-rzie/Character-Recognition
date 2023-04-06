@@ -42,9 +42,11 @@ Learning rate controls the speed at which the model adapts to the problem. Small
 
 # Getting Started
 ### Prerequisites
-- put data.xlsx in your project path
-- xlrd <br />
-    `pip install xlrd`
+- put Data in your project path
+- numpy <br />
+    `pip install numpy`<br />
+- matplotlib <br />
+    `pip install matplotlib`<br />
     
 <br /><br />
 # License
