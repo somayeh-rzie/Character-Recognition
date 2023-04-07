@@ -1,5 +1,5 @@
 # Character-Recognition
-A simple character recognition written in python <br />
+A simple character recognition written in python (No prepared functions or libraries are allowed for implementing the multi layer model) <br />
 
 
 
